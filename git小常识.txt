@@ -3,3 +3,10 @@
 3.分支操作，主干发布
 4.git log 下HEAD附近的分支是最新的
 5.切回主干才能merge？
+6.如果vim的命令模式切换失败或者输入失败，检查下是不是中英文切换不对，应该英文输入
+7.git常用操作
+ -编辑文件后要git add 文件名，然后git commit -m "版本注释"，此时对文件的修改才被纳入git管理
+ -看下之前的修改是在分支上还是主干上:git branch，若在分支上要在测试后把代码merge到主干上：git merge dev,然后视情况是否删掉分支：git branch -d dev;
+ -切换分支：git checkout dev/master;查看分支：git branch;查看日志：git log/git status
+
+ -在主干上push代码到GitHub上：git push
