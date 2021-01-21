@@ -1,0 +1,2 @@
+1.查python3的位置：which python3
+2.Mac会自带低版本python，为了一输入python就进入python3可以建个软链接：ln -f /usr/local/bin/python3.8 /usr/local/bin/python;注意软链接要重新打开终端才生效
